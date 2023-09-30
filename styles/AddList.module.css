@@ -1,0 +1,105 @@
+.topcirclediv svg {
+  position: relative;
+  font-size: 100px;
+  top: 120px;
+}
+.topcirclediv {
+  width: 125vw;
+  background: white;
+  color: #1a9fd8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border-radius: 100%;
+  height: 120vw;
+  position: relative;
+  bottom: 195px;
+}
+
+.descriptioninput::-webkit-scrollbar {
+  display: none;
+}
+.descriptioninput {
+  font-size: 25px;
+  width: 300px;
+  border-radius: 25px;
+  background: #a8fcfb;
+  height: 200px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+.addtodoinputandheading {
+  font-size: 22px;
+  margin-top: -190px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.pushbtn button {
+  background: #fec7c8;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  border: 1px solid black;
+}
+.pushbtn div {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background: linear-gradient(145deg, #ffd5d6, #e5b3b4);
+  box-shadow: 5px 5px 26px #665050, -5px -5px 26px #ffffff;
+}
+.pushbtn {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.addtodomain {
+  background: #a8fcfb;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.inputuperdiv {
+  display: flex;
+  background: #a8fcfb;
+  width: 375px;
+  height: 258px;
+  box-shadow: 10px 10px 20px #659797, -10px -10px 20px #ebffff;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border-radius: 10%;
+}
+.addtodoloading {
+  border-radius: 15px;
+  background: #a8fcfb;
+  box-shadow: inset 8px 8px 15px #659797, inset -8px -8px 15px #ebffff;
+  border: 5px solid #659797;
+}

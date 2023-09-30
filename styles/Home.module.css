@@ -1,0 +1,154 @@
+.listmain {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.topcirclediv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin-top: 30px;
+  gap: 10px;
+  color: white;
+}
+.mainlistdiv {
+  /*   height: 120vw;
+  width: 120vw;
+  background: blueviolet;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+ */
+
+  margin: 10px;
+  height: 120vw;
+  width: 120vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  border-radius: 50%;
+  background: #fec7c8;
+  box-shadow: 5px 5px 5px #b28b8c, -5px -5px 5px #ffffff;
+}
+.homepagemaindiv {
+  background: #fec7c8;
+  height: 100vh;
+}
+.onetodo a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.onetodo {
+  border-radius: 30px;
+  display: flex;
+  background: #fec7c8;
+  box-shadow: 5px 5px 5px #b28b8c, -5px -5px 5px #ffffff;
+  width: 300px;
+  height: 45px;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+.onetodobutton {
+  border: none;
+  border-radius: 50%;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background: #d07492;
+  box-shadow: 5px 5px 10px #7d4658, -5px -5px 10px #ffa2cc;
+}
+.newbtndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.newbtn {
+  font-size: 20px;
+  font-weight: bold;
+  background: #a8fcfb;
+  box-shadow: 6px 6px 12px #436564, -6px -6px 12px #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.alllistdiv {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.pagination div {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background: #6e73cf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.pagination button {
+  border-radius: 50%;
+  height: 50px;
+  font-size: xx-large;
+  width: 50px;
+  background: #6e73cf;
+  color: white;
+  border: 1px solid darkblue;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+}
+.deletingdialog {
+  border-radius: 20px;
+  background: #fec7c8;
+  background: linear-gradient(145deg, #ffd5d6, #e5b3b4);
+  box-shadow: 50px 50px 100px #665050, -50px -50px 100px #ffffff;
+  border: 5px solid #d07492;
+}
