@@ -47,7 +47,7 @@
 }
 .homepagemaindiv {
   background: #fec7c8;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .onetodo a {
   text-decoration: none;
@@ -91,9 +91,11 @@
   flex-wrap: nowrap;
   flex-direction: row;
   margin-top: 5px;
+  background: #fec7c8;
 }
 .newbtn {
   font-size: 20px;
+  margin-bottom: 20px;
   font-weight: bold;
   background: #a8fcfb;
   box-shadow: 6px 6px 12px #436564, -6px -6px 12px #ffffff;

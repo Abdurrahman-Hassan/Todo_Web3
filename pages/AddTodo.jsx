@@ -1,10 +1,11 @@
-import { useContract, useContractWrite } from "@thirdweb-dev/react";
-import { useState } from "react";
+import { useAddress, useContract, useContractWrite } from "@thirdweb-dev/react";
+import { useState, useEffect } from "react";
 import { PiStampBold } from "react-icons/pi";
 import styles from "../styles/AddList.module.css";
 import { useRouter } from "next/router";
 
 const AddTodo = () => {
+  const address = useAddress();
   const router = useRouter();
 
   const date = new Date();
@@ -34,6 +35,13 @@ const AddTodo = () => {
     }
   };
 
+  useEffect(() => {
+    if (address == null || address == undefined) {
+      router.push("/");
+      alert("You are suppose to login using wallet!");
+    }
+  }, [address]);
+
   return (
     <div className={styles.addtodomain}>
       <div className={styles.topcirclediv}>
@@ -56,7 +64,11 @@ const AddTodo = () => {
           <button onClick={call}>PUSH</button>
         </div>
       </div>
-      {isLoading && <dialog className={styles.addtodoloading} open>Loading...</dialog>}
+      {isLoading && (
+        <dialog className={styles.addtodoloading} open>
+          Loading...
+        </dialog>
+      )}
     </div>
   );
 };

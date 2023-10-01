@@ -17,14 +17,16 @@ export default function Home() {
         <div className={styles.mainlistdiv}>{address && <TodoLists />}</div>
       </div>
       <div className={styles.newbtndiv}>
-        <button
-          className={styles.newbtn}
-          onClick={() => {
-            router.push("/AddTodo");
-          }}
-        >
-          NEW
-        </button>
+        {address && (
+          <button
+            className={styles.newbtn}
+            onClick={() => {
+              router.push("/AddTodo");
+            }}
+          >
+            NEW
+          </button>
+        )}
       </div>
     </div>
   );
